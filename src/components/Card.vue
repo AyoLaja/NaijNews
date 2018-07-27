@@ -1,5 +1,5 @@
 <template>
-    <div class="column is-one-third">
+    <div class="column is-one-quarter">
         <div class="card">
             <header class="card-header">
                 <p class="card-header-title">
@@ -36,8 +36,8 @@
 <style>
     .card {
         border-radius: 25px;
-        background-color: #000;
-        color: #fff !important;
+        background-color: #1a1a1a;
+        color: #b7b7b7 !important;
     }
 
     .card-header {
@@ -45,7 +45,7 @@
     }
 
     .card-header p {
-        color: #fff;
+        color: #b7b7b7;
     }
 
     .card-image {
@@ -89,7 +89,7 @@
     
     a.button:hover {
         background-color: #1E90FF;
-        box-shadow: 0px 15px 20px rgba(30, 143, 255, 0.418);
+        box-shadow: 0px 3px 20px rgba(30, 143, 255, 0.418);
         color: #fff;
         transform: translateY(-7px);
     }

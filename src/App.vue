@@ -88,15 +88,16 @@ export default {
   font-family: "Avenir", Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  color: #fff !important;
+  color: #fff;
   background-color: rgb(34, 34, 34);
   padding: 20px;
+  height: 100vh;
   /* background-color: darkolivegreen;  */
 }
 
 .feed {
     overflow-y: hidden;
-    overflow-x: scroll;
+    overflow-x: hidden;
     cursor: hand;
 }
 </style>
