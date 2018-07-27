@@ -1,6 +1,5 @@
 <template>
-    <div class="columns">
-        <div class="column" v-for="result in results">
+        <div class="column is-one-third">
             <div class="card">
                 <header class="card-header">
                     <p class="card-header-title">
@@ -14,19 +13,17 @@
                 </div>
             </div>
         </div>
-    </div>
 </template>
 
 <script>
-    export default {
-        props: {
-            results: {
-                type: Array
-            }
-        }
+export default {
+  props: {
+    result: {
+      type: Object
     }
+  }
+};
 </script>
 
 <style>
-    
 </style>
