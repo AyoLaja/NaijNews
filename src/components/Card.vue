@@ -1,29 +1,96 @@
 <template>
-        <div class="column is-one-quarter">
-            <div class="card">
-                <header class="card-header">
-                    <p class="card-header-title">
-                        {{result.title}}
-                    </p>
-                </header>
-                <div class="card-content">
-                    <div class="content">
-                        {{result.abstract}}
-                    </div>
+    <div class="column is-one-third">
+        <div class="card">
+            <header class="card-header">
+                <p class="card-header-title">
+                    {{result.title}}
+                </p>
+            </header>
+            <div class="card-image">
+                <a :href="result.url" target="_blank">
+                    <img :src="result.multimedia[4].url" />
+                </a>
+            </div>
+            <div class="card-content">
+                <div class="content">
+                    {{result.abstract}}
+                </div>
+                <div class="card-footer">
+                    <a class="button is-rounded" :href="result.url" target="_blank">Go to Article</a>
                 </div>
             </div>
         </div>
+    </div>
 </template>
 
 <script>
-export default {
-  props: {
-    result: {
-      type: Object
-    }
-  }
-};
+    export default {
+        props: {
+            result: {
+                type: Object
+            }
+        }
+    };
 </script>
 
 <style>
+    .card {
+        border-radius: 25px;
+        background-color: #000;
+        color: #fff !important;
+    }
+
+    .card-header {
+        padding: 10px;
+    }
+
+    .card-header p {
+        color: #fff;
+    }
+
+    .card-image {
+        height: 200px; 
+        overflow: hidden;
+    }
+    
+    .card-image img {
+        opacity: 0.85;
+        min-width: 100%;
+        flex-shrink: 0;
+        -webkit-transform: scale(0.1);
+        transform: scale(1.1);
+        -webkit-transition: opacity 0.5s, -webkit-transform 0.5s;
+        transition: opacity 0.5s, -webkit-transform 0.5s;
+        transition: transform 0.5s, opacity 0.5s;
+        transition: transform 0.5s, opacity 0.5s, -webkit-transform 0.5s;
+    }
+    
+    .card-image img:hover {
+        opacity: 1;
+        width: 100%;
+        height: auto;
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+    
+    .card-footer {
+        justify-content: center;
+        align-items: center;
+        border: none;
+    }
+    
+    a.button {
+        box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+        border: none;
+        transition: all 0.3s ease 0s;
+        cursor: pointer;
+        outline: none;
+    }
+    
+    a.button:hover {
+        background-color: #1E90FF;
+        box-shadow: 0px 15px 20px rgba(30, 143, 255, 0.418);
+        color: #fff;
+        transform: translateY(-7px);
+    }
 </style>

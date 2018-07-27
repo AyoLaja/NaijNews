@@ -21,7 +21,7 @@
         margin: auto;
     }
 
-    .content h2 {
-        color: #003f64;
+    .content h2, .content h4 {
+        color: #fff;
     }
 </style>

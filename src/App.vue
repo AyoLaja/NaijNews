@@ -6,7 +6,6 @@
           v-for="(result, key) in results" 
           :key="key">
         </app-card>
-        {{url}}
     </div>
   </div>
 </template>
@@ -64,7 +63,22 @@ export default {
     }
   },
   computed: {
-    
+    processedPosts() {
+      let posts = this.results;
+
+      posts.map(post => {
+        let imgObj = post.multimedia.find(media => media.format === "superJumbo")
+        post.image_url = imgObj ? imgObj.url : "http://placehold.it/300x200?text=N/A"
+      });
+
+      //For grouping arrays into chunks of 4
+      let i, j, chunkedArray = [], chunk = 4;
+
+      for (i=0, j=0; i < posts.length; i += chunk, j++) {
+        chunkedArray[j] = posts.slice(i,i+chunk);
+      }
+      return chunkedArray;
+    }
   }
 };
 </script>
@@ -74,11 +88,10 @@ export default {
   font-family: "Avenir", Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  color: #2c3e50;
-  margin: 30px;
+  color: #fff !important;
+  background-color: rgb(34, 34, 34);
   padding: 20px;
   /* background-color: darkolivegreen;  */
-  border-radius: 10px;
 }
 
 .feed {
