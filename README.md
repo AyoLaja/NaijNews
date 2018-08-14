@@ -1,4 +1,4 @@
-# vue-nytimes
+# vue-news
 
 > Vue New York Times News
 
