@@ -33,7 +33,7 @@
     };
 </script>
 
-<style>
+<style scoped>
     .card {
         border-radius: 25px;
         background-color: #1a1a1a;

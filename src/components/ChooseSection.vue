@@ -1,4 +1,4 @@
-<template>
+<!-- <template>
     <div class="columns">
         <div class="column content">
             <h5>Select area of Interest</h5>
@@ -32,4 +32,4 @@
         color: #fff;
         margin-bottom: 5px;
     }
-</style>
+</style> -->

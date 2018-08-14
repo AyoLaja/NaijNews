@@ -2,8 +2,8 @@
     <div class="columns">
         <div class="column">
             <div class="content">
-                <h1>Vue <span style="font-size: 25px;">x</span> New York Times</h1>
-                <h4>A vue news app built with New York Times amazing api.</h4>
+                <h1>NAIJ <span style="font-size: 25px;">x</span> NEWS</h1>
+                <h4>Nigeria's number one online news outlet</h4>
             </div>
         </div>
     </div>
