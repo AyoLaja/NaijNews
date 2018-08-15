@@ -1,7 +1,7 @@
 <template>
     <div>
         <div class="content">
-            <h3>Nigeria</h3>
+            <h3>Naij</h3>
         </div>
     </div>
 </template>

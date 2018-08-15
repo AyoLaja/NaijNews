@@ -2,8 +2,8 @@
     <div class="columns">
         <div class="column">
             <div class="content">
-                <h1>NAIJ <span style="font-size: 25px;">x</span> NEWS</h1>
-                <h4>Nigeria's number one online news outlet</h4>
+                <h1>VUE <span style="font-size: 25px;">x</span> NEWS</h1>
+                <h4>Number one online news outlet</h4>
             </div>
         </div>
     </div>
