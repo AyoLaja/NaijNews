@@ -13,7 +13,7 @@ export const routes = [
         component: Nigeria
     },
     {
-        path: '/usa',
+        path: '/international',
         component: USA
     }
 ]
