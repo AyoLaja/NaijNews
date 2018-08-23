@@ -1,6 +1,6 @@
 # Naij News
 
-> News site built with News API
+> News site built with News API (https://newsapi.org/)
 
 ## Build Setup
 
