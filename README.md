@@ -1,6 +1,6 @@
-# vue-news
+# Naij News
 
-> Vue New York Times News
+> News site built with News API
 
 ## Build Setup
 
