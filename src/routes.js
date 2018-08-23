@@ -6,14 +6,10 @@ import USA from './components/usa/UsaHome.vue'
 export const routes = [
     {
         path: '/',
-        component: Home
-    },
-    {
-        path: '/nigeria',
         component: Nigeria
     },
     {
-        path: '/international',
+        path: '/usa',
         component: USA
     }
 ]

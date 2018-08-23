@@ -4,7 +4,6 @@
             <router-link to="/" tag="li" active-class="is-active" exact><a id="homeLink">
                 <ion-icon name="home"></ion-icon>
             </a></router-link>
-            <router-link to="/nigeria" tag="li" active-class="is-active"><a>Nigeria</a></router-link>
             <router-link to="/business" tag="li" active-class="is-active"><a>Business</a></router-link>
             <router-link to="/health" tag="li" active-class="is-active"><a>Health</a></router-link>
             <router-link to="/technology" tag="li" active-class="is-active"><a>Technology</a></router-link>
