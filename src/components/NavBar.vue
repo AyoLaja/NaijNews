@@ -1,5 +1,5 @@
 <template>
-    <div class="tabs is-centered">
+    <div class="tabs is-toggle is-toggle-rounded is-centered">
         <ul>
             <router-link to="/" tag="li" active-class="is-active" exact><a id="homeLink">
                 <ion-icon name="home"></ion-icon>

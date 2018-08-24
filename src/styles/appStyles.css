@@ -12,6 +12,7 @@
 
 .card.top-stories {
     width: 300px;
+    vertical-align: top;
 }
 
 .card-content p.content {
@@ -104,3 +105,8 @@ h3.title,
 .content h3 {
     color: #fff;
 }
+
+/* .content h3 {
+    border-bottom: 2px solid #ccc;
+} */
+    
