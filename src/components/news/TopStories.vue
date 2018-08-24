@@ -13,12 +13,12 @@
                     </header>
                     <div class="card-image">
                         <a :href="story.url" target="_blank">
-                            <img :src="story.urlToImage" />
+                            <img :src="(story.urlToImage) ? story.urlToImage : 'https://via.placeholder.com/300x200'" />
                         </a>
                     </div>
                     <div class="card-content">
                         <p class="content">
-                            {{story.description}}
+                            {{(story.description) ? story.description : story.title}}
                         </p>
                         <div class="card-footer">
                             <p>{{story.publishedAt | formatDate}}</p>
@@ -68,6 +68,10 @@ export default {
       // return d.getDate() + '/' + d.getMonth() + '/' +  d.getFullYear();
       return d.toDateString();
     }
+    // checkForNull(item) {
+    //     let toBeReturned;
+    //     item === null ? i  : return
+    // }
   }
 };
 </script>
