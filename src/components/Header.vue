@@ -25,6 +25,7 @@
         /* font-family: 'Hanalei Fill', cursive; */
         font-family: 'Monoton', "Avenir", Helvetica, Arial, sans-serif;
         letter-spacing: 1px;
+        font-size: 40px;
     }
 
     .content h1, .content h4 {
