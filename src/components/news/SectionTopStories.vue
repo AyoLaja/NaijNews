@@ -64,7 +64,7 @@
     }
     
     .card-header-title {
-        padding: 15px 0px 0px 0px;
+        padding: 15px 0.75rem 0px 0px;
         color: #b7b7b7 !important;
         width: inherit;
         overflow: hidden;
