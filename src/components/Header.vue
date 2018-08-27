@@ -51,7 +51,8 @@ export default {
       m = m < 10 ? "0" + m : m;
       s = s < 10 ? "0" + s : s;
 
-      let time = h + ":" + m + ":" + s + " " + meridian;
+      let time = `${h}:${m}:${s} ${meridian}`;
+
       this.appTime = time;
 
       setTimeout(this.startTime, 1000);
@@ -96,7 +97,7 @@ export default {
 }
 
 .dateTime {
-    /* font-weight: bold; */
+    font-weight: bold;
     font-size: 12px;
 }
 </style>
