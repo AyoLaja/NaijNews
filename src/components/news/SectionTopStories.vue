@@ -77,7 +77,13 @@
     
     .card-image {
         height: 150px;
-        padding: 20px;
+    }
+
+    .card-image img {
+        border-top-left-radius: 20px;
+        border-bottom-left-radius: 20px;
+        height: 150px;
+        width: 100%;
     }
     
     .card-footer {
