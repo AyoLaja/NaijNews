@@ -253,6 +253,26 @@
         height: 200px;
     }
     
+    .card-image img {
+        opacity: 0.85;
+        min-width: 100%;
+        flex-shrink: 0;
+        -webkit-transform: scale(0.1);
+        transform: scale(1.1);
+        -webkit-transition: opacity 0.5s, -webkit-transform 0.5s;
+        transition: opacity 0.5s, -webkit-transform 0.5s;
+        transition: transform 0.5s, opacity 0.5s;
+        transition: transform 0.5s, opacity 0.5s, -webkit-transform 0.5s;
+    }
+    
+    .card-image img:hover {
+        opacity: 1;
+        width: 100%;
+        height: auto;
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+    
     .card-footer p {
         font-size: 11px;
         font-weight: bold;
