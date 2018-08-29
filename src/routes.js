@@ -8,6 +8,7 @@ import NaijTech from './components/nigeria/NaijTech.vue'
 import NaijScience from './components/nigeria/NaijScience.vue'
 import NaijEntertainment from './components/nigeria/NaijEntertainment.vue'
 import NaijSports from './components/nigeria/NaijSports.vue'
+import NaijFeatures from './components/nigeria/NaijFeatures.vue'
 
 export const routes = [
     {
@@ -42,4 +43,8 @@ export const routes = [
         path: '/sports',
         component: NaijSports
     },
+    {
+        path: '/features',
+        component: NaijFeatures
+    }
 ]
