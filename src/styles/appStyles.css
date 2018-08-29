@@ -3,6 +3,12 @@ h3.title,
     color: #fff;
 }
 
+.content h3 {
+    font-size: 17px;
+    border-bottom: none;
+    font-weight: bold;
+}
+
 .feed {
     overflow-y: hidden;
     overflow-x: hidden;
