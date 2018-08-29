@@ -45,10 +45,10 @@ html {
 }
 
 .main-container {
-   min-height: 100vh; /* will cover the 100% of viewport */
- overflow: hidden;
- display: block;
- position: relative;
- padding-bottom: 50px; /* height of your footer */
+  min-height: 100vh; /* will cover the 100% of viewport */
+  overflow: hidden;
+  display: block;
+  position: relative;
+  padding-bottom: 50px; /* height of your footer */
 }
 </style>

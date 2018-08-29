@@ -103,11 +103,11 @@ export default {
 
 <style scoped>
 .navBar {
-    position: sticky;
-    position: -webkit-sticky;
-    top: 0px;
-    z-index: 1;
-    background-color: inherit;
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0px;
+  z-index: 1;
+  background-color: inherit;
 }
 
 a {
