@@ -104,7 +104,7 @@
             .then(response => {
                 this.topGeneral = response.articles
                 this.populateToTopStories(this.topGeneral)
-                this.addCategory(this.topGeneral, 'general', '#15c715')
+                this.addCategory(this.topGeneral, 'featured', '#15c715')
             })
             .catch(error => {
                 console.log(error);
