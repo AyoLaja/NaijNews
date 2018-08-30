@@ -211,7 +211,7 @@
 </script>
 
 <style lang="css" src="../../styles/cardStyles.css"></style>
-
+<style lang="css" src="../../styles/appStyles.css"></style>
 <style scoped>
     .card {
         width: 300px;
@@ -288,8 +288,8 @@
         margin-bottom: 5px;
     }
     
-    h3.title,
+    /* h3.title,
     .content h3 {
         color: #fff;
-    }
+    } */
 </style>
